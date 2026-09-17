@@ -1,0 +1,17 @@
+name: SkyDungeons
+version: ${version}
+main: in.volexmc.skydungeons.SkyDungeons
+api-version: '1.21'
+author: VolexMC
+description: Custom RPG dungeons, bosses, dimensions and loot system.
+
+commands:
+  skydungeons:
+    description: Main SkyDungeons command
+    usage: /skydungeons
+    permission: skydungeons.admin
+
+permissions:
+  skydungeons.admin:
+    description: Allows access to SkyDungeons admin commands
+    default: op
